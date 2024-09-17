@@ -3,7 +3,6 @@ import React from 'react';
 import './HeroSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDollarSign, faLock, faChartLine, faFileInvoiceDollar, faMoneyBillWave, faLeaf } from '@fortawesome/free-solid-svg-icons';
-import './HeroSection.css';
 
 const HeroSection = () => {
     return (
