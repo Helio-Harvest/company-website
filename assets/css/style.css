@@ -137,6 +137,49 @@ h5.solar_center.solar_left:after {
     width: 80px;
     margin: 0;
 }
+
+h3.solar_center {
+    text-align: center;
+    margin-bottom: 35px;
+    position: relative;
+    color: #002a4c;
+}
+h3.solar_center:after {
+    position: absolute;
+    content: "";
+    background-color: #6abd45;
+    height: 1px;
+    width: 80px;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    margin: auto;
+}
+h3.solar_center:before {
+    position: absolute;
+    content: "";
+    background-color: #6abd45;
+    height: 7px;
+    width: 7px;
+    left: 0;
+    right: 0;
+    bottom: -18px;
+    margin: auto;
+    z-index: 1;
+}
+h3.solar_center.solar_left {
+    text-align: left;
+}
+h3.solar_center.solar_left:before {
+    left: 0;
+    margin: 0;
+}
+h3.solar_center.solar_left:after {
+    left: 0;
+    width: 80px;
+    margin: 0;
+}
+
 h1.text_span {
     text-align: center;
 	color: #002a4c;
