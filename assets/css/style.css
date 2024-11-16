@@ -1882,6 +1882,11 @@ h1.text_span {
     padding: 0;
 	border-radius: 0;
 }
+.solar_quote .modal-body p {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
 .solar_quote .contact_form {
     background: #fff;
 }
